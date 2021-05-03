@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 //Import pages
-import AboutUs from './pages/AboutUs';
+import AboutUs from "./pages/AboutUs";
 
-
+import GlobalStyle from "./components/GlobalStyle";
 
 function App() {
   return (
     <div className="App">
-     <AboutUs />
+      <GlobalStyle />
+      <AboutUs />
     </div>
   );
 }
